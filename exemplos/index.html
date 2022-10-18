@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./libs/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./style/custom.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h1>Logo</h1>
+                </div>
+                <div class="col">
+                    <ul class="nav justify-content-end">
+                        <li class="nav-item"><a class="nav-link active">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#sobre">Sobre</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#produtos">Produtos</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="sobre">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-7 col-sm-12">
+                    <h1>Sobre nós</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In consequatur amet earum non quam iusto possimus nihil esse, corporis cumque. Odio quibusdam enim, ex blanditiis nostrum possimus error dolore aliquid!</p>
+                    <a class="btn btn-lg btn-success">Botão</a>
+                </div>
+                <div class="col-md-3 col-sm-12">
+                    <img src="./img/technology.jpg" alt="technology" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="produtos">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h2>Produtos</h2>
+                    <div class="card">
+                        <img src="./img/technology.jpg" alt="" class="fluid">
+                        <div class="card-body">
+                            <h5 class="card-title">Titulo</h5>
+                            <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum minus eius cum quia voluptatum nulla sequi hic dolorem, asperiores, doloremque culpa distinctio natus, nisi omnis fugiat nesciunt similique aspernatur adipisci.</p>
+                            <a class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-1">Ver produto</a>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img src="./img/technology.jpg" alt="" class="fluid">
+                        <div class="card-body">
+                            <h5 class="card-title">Titulo</h5>
+                            <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum minus eius cum quia voluptatum nulla sequi hic dolorem, asperiores, doloremque culpa distinctio natus, nisi omnis fugiat nesciunt similique aspernatur adipisci.</p>
+                            <a class="btn btn-primary" href="#produto-2">Ver produto</a>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img src="./img/technology.jpg" alt="" class="fluid">
+                        <div class="card-body">
+                            <h5 class="card-title">Titulo</h5>
+                            <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum minus eius cum quia voluptatum nulla sequi hic dolorem, asperiores, doloremque culpa distinctio natus, nisi omnis fugiat nesciunt similique aspernatur adipisci.</p>
+                            <a class="btn btn-primary" href="#produto-3">Ver produto</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contato">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-12">
+                    <h2>Contato</h2>
+                    <p>Ficou interessado? Preencha os campos do formulário para receber uma cotação.</p>
+                </div>
+                <div class="col-md-6 col-sm-12">
+                    <form class="form">
+                        <div class="input-group">
+                            <input class="form-control" type="text" name="nome" placeholder="digite o seu nome">
+                        </div>
+                        <div class="input-group">
+                            <input class="form-control" type="text" name="email" placeholder="digite o seu e-mail">
+                        </div>
+                        <div class="input-group">
+                            <textarea class="form-control" rows="5"></textarea>
+                        </div>
+                        <button class="btn btn-lg btn-success">Solicitar cotação</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="modal fade" id="modal-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Produto 1</h5>
+                    <button class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h6>Confira os tamanhos e os preços</h6>
+                    <table class="table-hover">
+                        <tr>
+                            <th>Tamanho</th>
+                            <th>Valor</th>
+                        </tr>
+                        <tr>
+                            <td>P</td>
+                            <td>R$ 100</td>
+                        </tr>
+                        <tr>
+                            <td>M</td>
+                            <td>R$ 200</td>
+                        </tr>
+                        <tr>
+                            <td>G</td>
+                            <td>R$ 300</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" aria-label="Close">Close</button>
+                </div>
+            </div>   
+        </div>
+    </div>
+    
+    <script src="../projeto/bootstrap/bootstrap-5.2.0-beta1-dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

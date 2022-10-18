@@ -1,0 +1,162 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-image: linear-gradient(to left, black, #252323);
+}
+
+#logo {
+    width: 40%;
+}
+
+#sociais ul li {
+    display: inline-block;
+    padding: 30px;
+    margin-top: 30px;
+}
+
+#sociais-img {
+    height: 40px;
+}
+
+.urls {
+    height: 80px;
+    border-bottom: 3px solid #efefef;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#menu ul li {
+    display: inline-block;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+#menu ul li a {
+    font-family: Cambria, Cochin;
+    color: #8b8b8b;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+#menu ul li:hover {
+    border-bottom: 3px solid #00bac6;
+    height: 50px;
+}
+
+#menu ul li a:hover {
+    color: #00bac6;
+}
+
+.busca {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.busca input {
+    background-image: url(../img/img_used/icone-search.png);
+    background-repeat: no-repeat;
+    background-position: 96%;
+    border: 1px solid #d6d6d6;
+}
+
+#title {
+    font-family: Cambria, Cochin;
+    margin: 40px 40px;
+    text-align: center;
+}
+
+#info {
+    padding: 20px;
+    font-family: Cambria, Cochin;
+    color: #8b8b8b;
+}
+
+#predio img {
+    width: 100%;
+}
+
+#cadastro {
+    font-family: Cambria, Cochin;
+    margin-top: 50px;
+    text-align: center;
+    background-image: linear-gradient(to right, black, #252323);
+    color: #8b8b8b;
+}
+
+input, select,
+textarea {
+    margin-bottom: 1rem !important;
+}
+
+.botao {
+    margin-bottom: 10px;
+}
+
+.top {
+    width: 100%;
+    height: 30px;
+    font-size: 15px;
+}
+
+.top a {
+    text-decoration: none;
+    color: black;
+    margin-left: 30px;
+}
+
+.telaMensagem {
+    height: auto;
+    color: darkred;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 480px) {
+    #logo {
+        width: 100%;
+    }
+
+    #sociais ul li {
+        margin-top: 10px;
+    }
+
+    form .col  {
+        flex: auto;
+    }
+}
+
+@media (max-width: 768px) {
+    #logo {
+        width: 100%;
+    }
+
+    #sociais ul li {
+        margin-top: 10px;
+    }
+
+    form .col  {
+        flex: auto;
+    }
+}
+
+@media (max-width: 1024px) {
+    #logo {
+        width: 100%;
+    }
+
+    #sociais ul li {
+        margin-top: 10px;
+    }
+
+    section .col-md-6 {
+        width: 100% !important;
+    }
+
+    form .col  {
+        flex: auto;
+    }
+}

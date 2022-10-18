@@ -1,0 +1,30 @@
+section {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+input,
+textarea {
+    margin-bottom: 1rem;
+}
+
+.card {
+    width: 32%;
+    float: left;
+    margin: 5px;
+}
+
+/*#modal-1 {
+    width: 400px;
+    margin-top: 15px;
+    margin: 40px auto;
+    border: 1px solid #333;
+}
+
+.modal-content {
+    padding: 20px;
+}
+
+h6, tr, th {
+    margin-bottom: 20px;
+}*/
