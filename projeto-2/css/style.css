@@ -8,18 +8,32 @@ header {
 }
 
 #logo {
-    width: 40%;
+    width: 30%;
 }
 
 #sociais ul li {
     display: inline-block;
-    padding: 30px;
-    margin-top: 30px;
+    padding: 1rem;
+    margin-top: 1.5rem;
 }
 
-#sociais-img {
-    height: 40px;
+.fa-facebook, .fa-wifi {
+    font-size: 1.5rem;
+    color: #fff;
 }
+
+.fa-instagram, .fa-linkedin {
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+#busca {
+    margin-top: 2.2rem;
+}
+
+/* aqui termina o header */
+
+
 
 .urls {
     height: 80px;
@@ -120,22 +134,44 @@ textarea {
         width: 100%;
     }
 
+    #sociais {
+        width: 100%;
+        text-align: center;
+    }
+
     #sociais ul li {
-        margin-top: 10px;
+        margin-right: 1rem;
+    }
+
+    #busca {
+        width: 100%;
+        text-align: center;
     }
 
     form .col  {
         flex: auto;
     }
+    
 }
 
 @media (max-width: 768px) {
+
     #logo {
         width: 100%;
     }
 
+    #sociais {
+        width: 100%;
+        text-align: center;
+    }
+
     #sociais ul li {
-        margin-top: 10px;
+        margin-right: 1rem;
+    }
+
+    #busca {
+        width: 100%;
+        text-align: center;
     }
 
     form .col  {
@@ -144,12 +180,23 @@ textarea {
 }
 
 @media (max-width: 1024px) {
+
     #logo {
         width: 100%;
     }
 
+    #sociais {
+        width: 100%;
+        text-align: center;
+    }
+
     #sociais ul li {
-        margin-top: 10px;
+        margin-right: 1rem;
+    }
+
+    #busca {
+        width: 100%;
+        text-align: center;
     }
 
     section .col-md-6 {
